@@ -11,6 +11,10 @@ export default function BusinessCard(
         <h2>{name}</h2>
         <p>{email}</p>
       </div>
+
+      <button onClick={() => alert("Ezra Cornell co-founded COrnell University in 1865")}>
+        More
+      </button>
     </div>
   )
 }
